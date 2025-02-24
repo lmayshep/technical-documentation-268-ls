@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  h1 {
+    margin-left: 590px;
+    font-family: "Jolly Lodger";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .title {
+    display: none;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    width: 407px;
+    height: 100%;
+    border-right: solid;
+  }
+  
+  #sasquatch {
+    width: 406px;
+    height: 391px;
+  }
+  
+  .heading {
+    margin-left: 517px;
+    font-family: Jomhuria;
+    font-size: 64px;
+    font-weight: 400;
+  }
+  
+  #intro, footer {
+    margin-left: 817px;
+  }
+  
+  .footer {
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: Jomhuria;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .nav-link {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: Jomhuria;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: solid 1px;
+    text-decoration: none;
+  }
+  
+  #tent {
+    width: 425px;
+    height: 300px;
+    margin-left: 720px; 
+    padding-bottom: 16px;
+  }
+  
+  
+  
+  h2 {
+    margin-left: 517px;
+    font-family: Jomhuria;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 85px;
+  }
+  
+  p, li, .subheader {
+    margin-left: 517px;
+    width: 779px;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: regular;
+  }
+  
+  .regular {
+    padding-bottom: 85px;
+  }
+  
+  .subheader, li {
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  .tent, .campfire {
+    font-weight: bold;
+    padding-bottom: 85px;
+  }
+  
+  .intro-p {
+    margin-left: 543px;
+    text-align: center;
+    width: 779px;
+    height: 145px;
+    justify-content: center;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 113px;
+  }
+  
+  @media (max-width: 768px) {
+    #navbar {
+      position: sticky;
+      width: 100%;
+      max-height: 300px;
+      border: none;
+      z-index: 1;
+    }
+  }
+  
+  
